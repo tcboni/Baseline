@@ -67,6 +67,14 @@ textarea {
   resize: vertical;
 }
 
+button,
+.button {
+  background: #337ab7;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+}
+
 /* ---------------------- */
 /* ---------------------- */
 /* ---------------------- */
