@@ -97,11 +97,17 @@ button,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  background: #337ab7;
+  background: #bf2731;
   color: #fff;
   border: 0;
   padding: 0.5em;
   font-family: inherit;
+  transition: 0.2s;
+}
+button:hover,
+.button:hover {
+  text-decoration: none;
+  background: #db3e4d;
 }
 
 .hidden {
