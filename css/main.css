@@ -78,6 +78,7 @@ textarea {
   padding: 0.5em;
   background: #fff;
   color: #222;
+  font-family: inherit;
 }
 
 input[type="radio"],
@@ -100,6 +101,7 @@ button,
   color: #fff;
   border: 0;
   padding: 0.5em;
+  font-family: inherit;
 }
 
 .hidden {
