@@ -31,6 +31,11 @@ function out($s, $html = false){
   return $s;
 }
 
+// Add leading zeroes
+function zeroise($number, $threshold){
+  return sprintf('%0' . $threshold . 's', $number);
+}
+
 // Slug
 function slug($str) {
   // Make sure string is in UTF-8 and strip invalid UTF-8 characters
