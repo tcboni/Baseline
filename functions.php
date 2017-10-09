@@ -32,7 +32,7 @@ function out($s, $html = false){
 }
 
 // Add leading zeroes
-function zeroise($number, $threshold){
+function zeroise($number, $threshold = 2){
   return sprintf('%0' . $threshold . 's', $number);
 }
 
