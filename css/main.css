@@ -87,11 +87,11 @@ img {
 input,
 select,
 textarea {
-  font-family: inherit;
   display: inline-block;
-  width: 100%;
-  padding: .5em;
   vertical-align: middle;
+  width: 100%;
+  font-family: inherit;
+  padding: 0.5em;
   color: #222;
   border: 1px solid #ccc;
   background: #fff;
@@ -106,19 +106,19 @@ input[type='checkbox'] {
 }
 
 textarea {
-  height: 10em;
+  min-height: 10em;
   resize: vertical;
 }
 
 button,
 .button {
-  font-family: inherit;
   display: inline-block;
-  padding: .5em;
-  cursor: pointer;
-  transition: .2s;
-  text-align: center;
   vertical-align: middle;
+  font-family: inherit;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
   color: #fff;
   border: 0;
   background-color: #bf2731;
